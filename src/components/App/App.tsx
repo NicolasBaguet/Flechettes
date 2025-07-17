@@ -36,7 +36,7 @@ function App() {
 							path="/"
 							element={
 								<PageWrapper>
-									<Flechettes />
+									<Flechettes isMenuOpen={isMenuOpen} />
 								</PageWrapper>
 							}
 						/>
